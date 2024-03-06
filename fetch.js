@@ -4,7 +4,7 @@ var process = require("process");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
-const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
+const GITHUB_USERNAME = "snasir-code";
 
 if (GITHUB_USERNAME === undefined) {
   throw "Github Username was found to be undefined. Please set an Environment variable.";
